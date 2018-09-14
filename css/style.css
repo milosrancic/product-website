@@ -1,0 +1,206 @@
+body, 
+html {
+	overflow-x: hidden;
+	background-color: #90ADBA;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+/*NAVBAR*/
+.navbar {
+	padding: 0;
+	margin: 0;
+	background-color: #90ADBA;
+	border-bottom: 0px solid ;
+}
+
+.container-fluid .navbar-header>a {
+	/*brand*/
+	color: white;
+}
+
+.container-fluid .navbar-header>a:hover {
+	color: #07223C;
+}
+
+.navbar-collapse {
+	text-align: center;
+}
+
+.dropdown a i {
+	/*shopping cart*/
+	color: white;
+}
+
+.fa-shopping-cart:hover {
+	color: #07223C;
+}
+
+.dropdown-menu {
+	text-align: center;
+	background-color: #90ADBA;
+	color: white;
+}
+
+.dropdown ul li a  {
+	color: white;
+}
+.navbar-collapse .navbar-right .dropdown .dropdown-menu>li>a {
+	color: white;
+}
+
+.navbar-collapse .navbar-right>li>a {
+	/*contact button*/
+	color: white;
+}
+.navbar-collapse .navbar-right>li>a:hover {
+	color: #07223C;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: bolder;
+	text-shadow: 4px 4px #07223C;
+	letter-spacing: 4px;
+}
+
+h1>small {
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 4px 4px #07223C;
+	letter-spacing: 3px;
+	color: white;
+}
+
+h2 {
+	font-size: 2.5em;
+	padding-bottom: 20px;
+	color: white;
+	text-shadow: 2px 2px #07223C;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+h3, h4 {
+	color: white;
+	letter-spacing: 2px;
+}
+p {
+	letter-spacing: 1px;
+}
+
+/* All photos */
+.thumbnail {
+	background-color: #698EA0;
+	border-radius: 5px;
+}
+.thumbnail>img {
+	height: 250px;
+	width: auto;
+	border-radius: 5px;
+}
+.records-img {
+	height: 250px;
+	width: auto;
+	padding: 10px;
+	border-radius: 12px;
+}
+
+.full-width-image-1 {
+	background-image: url(../images/landing-photo.jpeg);
+	/* photo source https://source.unsplash.com/rPOmLGwai2w */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 710px;
+} 
+.full-width-image-1>h1 {
+	padding-top: 250px;
+	color: white;
+}
+
+section {
+	padding-top: 30px;
+}
+
+
+/* --- Guitars section --- */
+#guitars {
+	margin-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* --- Pianos section --- */
+#pianos {
+	margin-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* --- Violins section --- */
+#violins {
+	margin-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* --- Recod player section --- */
+#record_player {
+	margin-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* --- Contact section --- */
+#contact {
+	padding: 40px 40px 40px 40px;
+}
+#contact h2 {
+	padding-bottom: 40px;
+}
+#contact p {
+	padding-top: 10px;
+}
+
+#contact p a i:hover {
+	/*facebook logo*/
+
+	/*color: #3b5998;*/
+	color: #3C5B97;
+}
+
+.adress {
+	/* adress */
+	padding-top: 30px;
+}
+
+
+/* --- Footer --- */
+#footer {
+	border-top: 1px solid black;
+	line-height: normal;
+	padding-bottom: 5px;
+}
+
+#footer p {
+	font-size: 10px;
+}
+#footer :first-child {
+	padding-top: 5px;
+}
+.heart {
+	color: #F20000;
+}
+#footer a {
+	text-decoration: underline;
+	color: black;
+}
+#footer a:hover {
+	color: white;
+}
