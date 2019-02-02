@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700');
+
 body, 
 html {
 	overflow-x: hidden;
-	background-color: #90ADBA;
+	background-color: #aa8839;
 	color: white;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Crimson Text', serif;
 	max-width: 1300px;
 	margin: 0 auto;
 }
@@ -12,15 +14,13 @@ html {
 .navbar {
 	padding: 0;
 	margin: 0;
-	background-color: #90ADBA;
-	border-bottom: 0px solid ;
+	background-color: #aa8839;
 }
 
+/* brand */
 .container-fluid .navbar-header>a {
-	/*brand*/
 	color: white;
 }
-
 .container-fluid .navbar-header>a:hover {
 	color: #07223C;
 }
@@ -29,18 +29,20 @@ html {
 	text-align: center;
 }
 
+/* shopping cart */
+.navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: #aa8839;
+}
 .dropdown a i {
-	/*shopping cart*/
 	color: white;
 }
-
 .fa-shopping-cart:hover {
 	color: #07223C;
 }
 
 .dropdown-menu {
 	text-align: center;
-	background-color: #90ADBA;
+	background-color: #aa8839;
 	color: white;
 }
 
@@ -50,9 +52,12 @@ html {
 .navbar-collapse .navbar-right .dropdown .dropdown-menu>li>a {
 	color: white;
 }
+.navbar-collapse .navbar-right .dropdown .dropdown-menu>li>a:hover {
+	color: black;
+}
 
+/*contact button*/
 .navbar-collapse .navbar-right>li>a {
-	/*contact button*/
 	color: white;
 }
 .navbar-collapse .navbar-right>li>a:hover {
@@ -62,14 +67,14 @@ html {
 h1 {
 	font-size: 5em;
 	font-weight: bolder;
-	text-shadow: 4px 4px #07223C;
+	text-shadow: 3px 3px #07223C;
 	letter-spacing: 4px;
 }
 
 h1>small {
 	font-size: 30px;
 	font-weight: bold;
-	text-shadow: 4px 4px #07223C;
+	text-shadow: 3px 3px #07223C;
 	letter-spacing: 3px;
 	color: white;
 }
@@ -93,7 +98,7 @@ p {
 
 /* All photos */
 .thumbnail {
-	background-color: #698EA0;
+	background-color: #553C00;
 	border-radius: 5px;
 }
 .thumbnail>img {
@@ -125,6 +130,15 @@ section {
 	padding-top: 30px;
 }
 
+/* all buttons */
+.btn {
+	background-color: #D4B56A;
+	color: black;
+	border: none;
+}
+.btn:hover {
+	background-color: #AA8839;
+}
 
 /* --- Guitars section --- */
 #guitars {
@@ -168,15 +182,13 @@ section {
 	padding-top: 10px;
 }
 
+/*facebook logo*/
 #contact p a i:hover {
-	/*facebook logo*/
-
-	/*color: #3b5998;*/
 	color: #3C5B97;
 }
 
+/* adress */
 .adress {
-	/* adress */
 	padding-top: 30px;
 }
 
